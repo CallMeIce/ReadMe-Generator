@@ -3,15 +3,6 @@ const fs = require('fs');
 const inquirer = require('inquirer')
 const markdown = require('./generateMarkdown')
 // TODO: Create an array of questions for user input
-//* Title ====
-//* Description =====
-//* Table of Contents - Send you to corresponding section ====
-//* Installation ===
-//* Usage =====
-//* License - list ======
-//* Contributing =====
-//* Tests
-//*questions - link to github, and how to reach me email address=====
 
 inquirer
     .prompt([
@@ -29,7 +20,7 @@ inquirer
             name: "content",
             type: "checkbox",
             message: "List your table of contents",
-            choices: ["Installation", "Usage", "Credits", "License", "Test"],
+            choices: ["[Installation](#Installation)", "[Usage](#Usage)", "[Collaboration](#Collaboration)", "[Links](#Links)", "[License](#License)", "[Test](#Test)", "[Questions](#Questions)"]
         },
         {
             name: "install",
@@ -64,23 +55,11 @@ inquirer
         },
         {
             name: "questions",
-            type: "input",
-            message: "How to reach me: Email and Github link:",
+            type: "checkbox",
+            message: "Github profile name and email address:",
         },
     ]).then((answer) => {
         console.log(answer.title, answer.description, answer.content, answer.install, answer.usage, answer.collab, answer.links, answer.license, answer.test, answer.questions);
 
-        fs.writeFile("Readme.md", markdown({...answer}), (err) => err ? console.log(err) : console.log("Success"))
+        fs.writeFile("Readme.md", markdown({ ...answer }), (err) => err ? console.log(err) : console.log("Success"))
     });
-
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-
-// }
-
-// // TODO: Create a function to initialize app
-// function init() { }
-
-// // Function call to initialize app
-// init();
