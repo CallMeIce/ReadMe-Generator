@@ -1,8 +1,8 @@
-# ReadMe Generator
+# Read Me
 
   ## Description 
   
-  This project was made to make an easier and simplier way to make a ReadMe rather than copying and pasting. Now all you have to do is just follow the prompts.
+  Read Me homework
 
   ## Table of Contents 
   
@@ -16,19 +16,25 @@
 
   ## Installation 
   
-  First go into the repo. You can clone the code and one VSC is open, you can open up your integrated terminal. Make sure you selected node .index.js so that you follow the correct prompts. Once thats done just follow the prompts and youre on your way.
+  Install through VS Code
 
   ## Usage 
   
-  Once VSCode is open. Open the integrade terminal in your index.js. Then just follow the prompts that are given to you below.
+  Watch video below
+
+![alt = "Walkthrough"](./video/Untitled_%20Apr%206%2C%202022%206_36%20PM.gif)
 
   ## Collaboration 
   
-  Dom Kyle
+  Dom - https://github.com/dev-dominick
+
+  Kyle - https://github.com/kgiunta
+
+  Tutor - Scott McAnally
 
   ## Links 
   
-  https://github.com/CallMeIce/ReadMe-Generator
+  github
 
   ## License 
   
@@ -44,7 +50,7 @@
   
   If you need to contact me for anything, below my email and Github accounts are linked:
 
-  ice.isaak97@gmail.com
+  email@email.com
 
-  https://github.com/CallMeIce
+  https://github.com/github
  
