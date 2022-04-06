@@ -1,12 +1,12 @@
-# adsf
+# ReadMe Generator
 
   ## Description 
   
-  adf
+  This project was made to make an easier and simplier way to make a ReadMe rather than copying and pasting. Now all you have to do is just follow the prompts.
 
   ## Table of Contents 
   
-  * [[Installation](#Installation)
+  * [Installation](#Installation)
   * [Usage](#Usage)
   * [Collaboration](#Collaboration)
   * [Links](#Links)
@@ -16,32 +16,35 @@
 
   ## Installation 
   
-  asdf
+  First go into the repo. You can clone the code and one VSC is open, you can open up your integrated terminal. Make sure you selected node .index.js so that you follow the correct prompts. Once thats done just follow the prompts and youre on your way.
 
   ## Usage 
   
-  asdf
+  Once VSCode is open. Open the integrade terminal in your index.js. Then just follow the prompts that are given to you below.
 
   ## Collaboration 
   
-  asdf
+  Dom Kyle
 
   ## Links 
   
-  asdf
+  https://github.com/CallMeIce/ReadMe-Generator
 
   ## License 
   
-  Mozilla
+  MIT
 
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Tests 
   
-  asdf
+  N/A
 
   ## Questions 
   
-  asdf
-  https://github.com/adsf
+  If you need to contact me for anything, below my email and Github accounts are linked:
+
+  ice.isaak97@gmail.com
+
+  https://github.com/CallMeIce
  
