@@ -20,7 +20,13 @@ function generateMarkdown(data) {
 
   ## Table of Contents 
   
-  * ${data.content} 
+  * [[Installation](#Installation)
+  * [Usage](#Usage)
+  * [Collaboration](#Collaboration)
+  * [Links](#Links)
+  * [License](#License)
+  * [Test](#Test)
+  * [Questions](#Questions)
 
   ## Installation 
   
@@ -50,7 +56,12 @@ function generateMarkdown(data) {
 
   ## Questions 
   
+  If you need to contact me for anything, below my email and Github accounts are linked:
+
   ${data.questions}
+
+  https://github.com/${data.questionsOne}
+ 
 `;
 }
 

@@ -17,12 +17,6 @@ inquirer
             message: "Provide a short description explaining the what, why, and how of your project.",
         },
         {
-            name: "content",
-            type: "checkbox",
-            message: "List your table of contents",
-            choices: ["[Installation](#Installation) \n", "[Usage](#Usage) \n", "[Collaboration](#Collaboration) \n", "[Links](#Links) \n", "[License](#License) \n ", "[Test](#Test)", "[Questions](#Questions)"]
-        },
-        {
             name: "install",
             type: "input",
             message: "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running?",
@@ -56,10 +50,15 @@ inquirer
         {
             name: "questions",
             type: "input",
-            message: "Github profile name and email address:",
+            message: "Write your email address:",
+        },
+        {
+            name: "questionsOne",
+            type: "input",
+            message: "Write your Github profile name here:",
         },
     ]).then((answer) => {
-        console.log(answer.title, answer.description, answer.content, answer.install, answer.usage, answer.collab, answer.links, answer.license, answer.test, answer.questions);
+        console.log(answer.title, answer.description, answer.install, answer.usage, answer.collab, answer.links, answer.license, answer.test, answer.questions, answer.questionsOne);
 
         fs.writeFile("Readme.md", markdown({ ...answer }), (err) => err ? console.log(err) : console.log("Success"))
     });
