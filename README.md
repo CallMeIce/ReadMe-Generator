@@ -2,7 +2,7 @@
 
   ## Description 
   
-  Read Me homework
+  A ReadMe generator that makes it easier to produce a ReadMe rather than copying and pasting all the times. Rather now, you're able to just follow the prompts now.
 
   ## Table of Contents 
   
@@ -16,7 +16,7 @@
 
   ## Installation 
   
-  Install through VS Code
+  1. Open VSCode. 2-CD into the ReadMe-Generator folder. 3-Open your integrated terminal from your index.js on the left hand side. 4-type in "node ./index.js" to access the prompts. 5-Follow the prompts through and once you're done. You should have a completed ReadMe.md file appear.
 
   ## Usage 
   
@@ -32,10 +32,6 @@
 
   Tutor - Scott McAnally
 
-  ## Links 
-  
-  github
-
   ## License 
   
   MIT
@@ -50,7 +46,7 @@
   
   If you need to contact me for anything, below my email and Github accounts are linked:
 
-  email@email.com
+  ice.isaak97@gmail.com
 
-  https://github.com/github
+  https://github.com/CallMeIce
  
