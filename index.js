@@ -20,7 +20,7 @@ inquirer
             name: "content",
             type: "checkbox",
             message: "List your table of contents",
-            choices: ["[Installation](#Installation)", "[Usage](#Usage)", "[Collaboration](#Collaboration)", "[Links](#Links)", "[License](#License)", "[Test](#Test)", "[Questions](#Questions)"]
+            choices: ["[Installation](#Installation) \n", "[Usage](#Usage) \n", "[Collaboration](#Collaboration) \n", "[Links](#Links) \n", "[License](#License) \n ", "[Test](#Test)", "[Questions](#Questions)"]
         },
         {
             name: "install",
@@ -55,7 +55,7 @@ inquirer
         },
         {
             name: "questions",
-            type: "checkbox",
+            type: "input",
             message: "Github profile name and email address:",
         },
     ]).then((answer) => {

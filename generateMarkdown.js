@@ -20,7 +20,7 @@ function generateMarkdown(data) {
 
   ## Table of Contents 
   
-  ${data.content} 
+  * ${data.content} 
 
   ## Installation 
   
